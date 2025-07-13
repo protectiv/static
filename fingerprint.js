@@ -25,7 +25,7 @@
             }
 
             const script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/thumbmarkjs@0.15.2/dist/thumbmark.umd.js';
+            script.src = 'https://cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs@rc/dist/thumbmark.umd.js';
             script.onload = () => {
                 if (window.thumbmark) {
                     debugLog('Thumbmarkjs loaded successfully');
